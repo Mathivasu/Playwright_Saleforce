@@ -1,0 +1,20 @@
+{
+  "name": "framework_pw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {"test:allure": "rm -rf allure-results && npx playwright test; allure serve allure-results"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "csv": "^6.4.1",
+    "csv-parser": "^3.2.0"
+  }
+}
